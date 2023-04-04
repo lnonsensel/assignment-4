@@ -17,5 +17,6 @@ module.exports = {
   },
   gasReporter: {
     enabled: true,
+    noColors: false,
   },
 };
