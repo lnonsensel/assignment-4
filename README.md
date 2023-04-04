@@ -1,3 +1,5 @@
+<h1>Coverage</h1>
+
 Version
 =======
 > solidity-coverage: v0.8.2
