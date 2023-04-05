@@ -8,9 +8,9 @@ contract NFT is ERC721Enumerable, Ownable{
     using Strings for uint256;
     uint256 maxSupply = 80;
     uint256 cost = 0.001 ether;
-    string public baseURI = "ff";
+    string public baseURI = "ipfs://QmdxL8cJNq1j673q6QsvXw9F5WWDw52Pz1FJmQyWWphvjv/";
 
-    constructor() ERC721("BlocksChain", "BC"){}
+    constructor() ERC721("0xblocks", "0xb"){}
 
     function _baseURI() internal view override returns(string memory){
         return baseURI;
