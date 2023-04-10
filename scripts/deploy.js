@@ -10,7 +10,7 @@ async function main() {
 
   console.log(`Contract owner address: ${owner.address}`);
 
-  await token.safeMint(owner.address, {
+  await token.safeMint(owner.address, 1, {
     value: hre.ethers.utils.parseEther("0.001"),
   })
 
